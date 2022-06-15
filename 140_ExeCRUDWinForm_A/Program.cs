@@ -16,7 +16,7 @@ namespace _140_ExeCRUDWinForm_A
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Users());
+            Application.Run(new Form_Menu());
         }
     }
 }

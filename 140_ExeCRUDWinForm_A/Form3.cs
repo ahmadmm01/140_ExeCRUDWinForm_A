@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace _140_ExeCRUDWinForm_A
 {
-    public partial class Form_Menu : Form
+    public partial class Form3 : Form
     {
-        public Form_Menu()
+        public Form3()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            new Form_Users().Show();
-            this.Hide();
         }
     }
 }

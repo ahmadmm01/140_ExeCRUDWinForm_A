@@ -21,6 +21,15 @@ namespace _140_ExeCRUDWinForm_A
         {
             this.Validate();
             this.usersBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.todoDataSet);
+
+        }
+
+        private void usersBindingNavigatorSaveItem_Click_1(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.usersBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.todoDataSet);
 
         }
 
@@ -31,9 +40,10 @@ namespace _140_ExeCRUDWinForm_A
 
         }
 
-        private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
+            new Form_Menu().Show();
+            this.Close();
         }
     }
 }
