@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _140_ExeCRUDWinForm_A
 {
-    public partial class Form1 : Form
+    public partial class Form_Menu : Form
     {
-        public Form1()
+        public Form_Menu()
         {
             InitializeComponent();
         }
