@@ -112,7 +112,7 @@
             this.remindersBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.remindersBindingNavigator.Name = "remindersBindingNavigator";
             this.remindersBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.remindersBindingNavigator.Size = new System.Drawing.Size(579, 25);
+            this.remindersBindingNavigator.Size = new System.Drawing.Size(570, 25);
             this.remindersBindingNavigator.TabIndex = 0;
             this.remindersBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -303,7 +303,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(579, 204);
+            this.ClientSize = new System.Drawing.Size(570, 204);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
