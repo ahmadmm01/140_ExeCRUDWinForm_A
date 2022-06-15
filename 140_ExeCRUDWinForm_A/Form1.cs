@@ -22,5 +22,10 @@ namespace _140_ExeCRUDWinForm_A
             new Form_Users().Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Form_R
+        }
     }
 }
